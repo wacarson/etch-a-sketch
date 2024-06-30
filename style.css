@@ -1,5 +1,5 @@
 body {
-	margin:0;
+  margin: 0;
 }
 
 .container {
@@ -8,4 +8,13 @@ body {
 }
 
 .square {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button {
+  padding: 10px;
+  margin-left: 50px;
+  border: solid 3px black;
+  border-radius: 5px;
 }
